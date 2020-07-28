@@ -1,10 +1,12 @@
 <template>
-  <div class=""></div>
+  <div class="wecome">
+      欢迎
+  </div>
 </template>
 
 <script>
 export default {
-name:"",
+name:"Wecome",
   components: {},
   props: {},
   data() {

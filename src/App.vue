@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   
+    
     <router-view/>
   </div>
 </template>
@@ -23,7 +23,20 @@ name:"App",
 </script>
 
 <style lang="scss">
-
+#app{
+  width: 100%;
+  height: 100%;
+  // background: firebrick;
+  .home{
+    width: 100%;
+    height: 100%;
+  }
+  .login{
+    width: 100%;
+    height: 100%;
+    background: #2b4b6b;
+  }
+}
 
 
   a {
